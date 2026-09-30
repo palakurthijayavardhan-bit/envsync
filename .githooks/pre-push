@@ -1,0 +1,2 @@
+#!/bin/sh
+node backend/bin/envsync.js check --dir .envsync || { echo "EnvSync: push blocked"; exit 1; }
